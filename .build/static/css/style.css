@@ -1,54 +1,79 @@
 /* Reset */
-html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0} 
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
 *, *:before, *:after { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+/*  Base  ======================================
+*/
+
+html, body { height: 100%; }
+
 body {
-	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0;
+	font:18px/1 "Karla-Regular", Helvetica, Arial, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
-	color: #777;
+	color: #A6A6A6;
 }
 
-p {
-	line-height:1.8;
+/*  Layouts  =====================================
+*/
+
+.page-section{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	border-top: 1px  solid  #e7e7e7;
 }
 
-strong {
-	font-weight: 500;
-	color: #333;
+.inner{
+	flex: 1	auto;
+	align-self: center;
+	align-self: center;
+	margin: 2rem;
+}
+
+.inner{
+	max-width: 910px;
+	justify-content: center;
+	text-align: center;
+	color: blue;
+}
+
+
+/*  Header  =====================================
+*/
+
+header  {
+	display: flex;
+	justify-content: center;
+  height: 75px;
+}
+
+nav	a	{
+align-self: center;
+}
+
+.nav	{
+	display: inline-flex;
+	list-style: none;
+	margin-left: auto;
+}
+
+nav	li	{
+	padding-left: 50px;
+}
+
+nav	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 1100px;
+	margin: 2rem;
 }
 
 a {
 	text-decoration: none;
-	color: #5badf0;
-}
-
-#wrapper {
-	margin: 0 auto;
-	max-width: 560px;
-	padding: 160px 40px;
-}
-
-/* Link to Documentation */
-#docs {
-	position: fixed; 
-	top: 8px; 
-	right: 6px;
-	background: #5badf0; 
-	color: #fff;
-	padding: 8px 12px;
-	font-size: 13px; 
-	font-weight: bold; 
-	line-height: 1.35;
-	border-radius: 3px; 
-	z-index: 100;
-}
-
-/* Made with Cactus Badge */
-#badge {
-	position: absolute; 
-	bottom: 8px; 
-	right: 8px;
-	height: 48px; 
-	width: 48px;
+	color: #4A26EE;
 }
