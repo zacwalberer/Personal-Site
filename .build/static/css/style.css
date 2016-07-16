@@ -25,6 +25,16 @@ h1	{
 	font:60px/1	"vollkorn", Arial, serif;
 }
 
+h3{
+	font:18px/1	"filson-pro", Arial, serif;
+	line-height: 1.7;
+	color: #222222;
+}
+
+h3	a{
+	font-weight:	700;
+}
+
 h4{
 	font:18px/1	"filson-pro", Arial, serif;
 	line-height: 1.7;
@@ -33,12 +43,11 @@ h4{
 
 a{
 		color: inherit;
-    transition: opacity .1s;
-    transition-property: opacity;
-    transition-duration: 0.1s;
-    transition-timing-function: initial;
-    transition-delay: initial;
-		text-decoration: none;
+}
+
+header	a,	footer	a{
+	color:	#4B34EA;
+	text-decoration: none;
 }
 
 ol, ul {

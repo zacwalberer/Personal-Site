@@ -19,8 +19,6 @@ padding-right: 4.16667%;
 	display: flex;
 	justify-content: center;
   /*background-color: yellow;*/
-	border-top: 1px  solid  #e7e7e7;
-	padding-top: 1em;
 	margin-left: auto;
 	margin-right: auto;
   padding-left: 4.16667%;
@@ -30,9 +28,25 @@ padding-right: 4.16667%;
 }
 
 .recent	{
+	border-top: 1px  solid  #e7e7e7;
+	padding-top: 3em;
 	width: 100%;
 	max-width: 1080px;
+	display: flex;
+	flex-flow: row wrap;
   /*background-color: blue;*/
+}
+
+.recent-list{
+	flex: 1;
+}
+
+.recent	ul{
+	margin-bottom: 3em;
+}
+
+.recent-title{
+	margin-bottom: 3em;
 }
 
 /*  Header and Footer  =====================================
