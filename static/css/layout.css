@@ -15,6 +15,16 @@ padding-right: 4.16667%;
 	align-self: center;
 }
 
+.intro-about{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+}
+
+.intro-about	p, .intro-about	img{
+	flex: 1;
+}
+
 .container-recents{
 	display: flex;
 	justify-content: center;

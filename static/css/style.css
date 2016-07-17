@@ -21,6 +21,12 @@ h1, h2, h3, h4, h5, h6, p {
 		color: 74, 74, 74;
 }
 
+p	{
+	font:18px/1	"filson-pro", Arial, serif;
+	line-height: 1.7;
+	color: #A6A6A6;
+}
+
 h1	{
 	font:60px/1	"vollkorn", Arial, serif;
 }
