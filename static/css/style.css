@@ -41,8 +41,15 @@ h4{
 	color: #A6A6A6;
 }
 
-a{
-		color: inherit;
+.main	a{
+	color: inherit;
+	transition: opacity	.1s;
+	border-bottom: 1px solid #E0E0E0;
+	text-decoration: none;
+}
+
+a:hover {
+	opacity: 0.5;
 }
 
 header	a,	footer	a{
