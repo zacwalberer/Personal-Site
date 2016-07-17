@@ -43,9 +43,7 @@ h4{
 
 .main	a{
 	color: inherit;
-	transition: opacity	.1s;
 	border-bottom: 1px solid #E0E0E0;
-	text-decoration: none;
 }
 
 a:hover {
@@ -54,6 +52,10 @@ a:hover {
 
 header	a,	footer	a{
 	color:	#4B34EA;
+}
+
+.main	a,	header	a,	footer	a{
+	transition: opacity	.1s;
 	text-decoration: none;
 }
 
