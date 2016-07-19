@@ -17,12 +17,16 @@ padding-right: 4.16667%;
 
 .intro-about{
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-between;
+	flex-flow: row nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-self: center;
+	max-width: 75%;
+	margin:	auto;
 }
 
-.intro-about	p, .intro-about	img{
-	flex: 1;
+.intro-about	p{
+	max-width: 50%;
 }
 
 .container-recents{
