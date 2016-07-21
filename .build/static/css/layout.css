@@ -1,71 +1,68 @@
-.container{
-	display: flex;
-  /*background-color: yellow;*/
-  margin-bottom: 6em;
-	flex-flow: column nowrap;
-	margin-left: auto;
-margin-right: auto;
-padding-left: 4.16667%;
-padding-right: 4.16667%;
-}
-
-.intro{
-  max-width: 1080px;
-	/*background-color: #97E3FB;*/
-	align-self: center;
-}
-
-.intro-about{
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: center;
-	align-self: center;
-}
-
-.intro-about	p{
-	flex: 1;
-	padding-left: 2em;
-}
-
-.intro-about	img{
-	padding-right: 2em;
-}
-
-.container-recents{
+.container-row	{
 	display: flex;
 	justify-content: center;
-  /*background-color: yellow;*/
-	margin-left: auto;
-	margin-right: auto;
   padding-left: 4.16667%;
   padding-right: 4.16667%;
 	flex-flow: row wrap;
 	margin-bottom: 6em;
 }
 
-.recent	{
+.intro	{
+	flex: auto;
+	max-width: 1080px;
+}
+
+.intro-about	{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.intro-about	p	{
+	flex: 1;
+}
+
+.intro-about	img	{
+	padding-right: 4em;
+}
+
+.border-top	{
 	border-top: 1px  solid  #e7e7e7;
+}
+
+.recent	{
 	padding-top: 3em;
 	width: 100%;
 	max-width: 1080px;
 	display: flex;
 	flex-flow: row wrap;
-  /*background-color: blue;*/
 }
 
-.recent-list{
+.recent-list	{
 	flex: 1;
 }
 
-.recent	ul{
+.recent	ul	{
 	margin-bottom: 3em;
 }
 
-.recent-title{
+.recent-title	{
 	margin-bottom: 3em;
 }
 
+.project-logo {
+  width: 250px;
+	margin-bottom: 1em;
+}
+
+.projects-child	{
+	flex: 1	0 auto;
+	margin: auto;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+}
 /*  Header and Footer  =====================================
 */
 
@@ -75,11 +72,8 @@ header  {
   height: 75px;
   border-bottom:  1px  solid  #e7e7e7;
 	margin-bottom: 6em;
-	margin-left: auto;
-  margin-right: auto;
   padding-left: 4.16667%;
   padding-right: 4.16667%;
-  /*background-color: yellow;*/
 }
 
 .nav	{
@@ -105,9 +99,6 @@ footer  {
 	justify-content: center;
   height: 75px;
   border-top:  1px  solid  #e7e7e7;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 4.16667%;
   padding-right: 4.16667%;
-  /*background-color: yellow;*/
 }
