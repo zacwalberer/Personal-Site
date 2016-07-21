@@ -1,8 +1,10 @@
+.main{
+	padding-left: 4.16667%;
+  padding-right: 4.16667%;
+}
 .container-row	{
 	display: flex;
 	justify-content: center;
-  padding-left: 4.16667%;
-  padding-right: 4.16667%;
 	flex-flow: row wrap;
 	margin-bottom: 6em;
 }
@@ -53,15 +55,24 @@
 
 .project-logo {
   width: 250px;
-	margin-bottom: 1em;
+	margin-bottom: 1.5em;
 }
 
+.projects{
+	width: 1080px;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;;
+}
+
+
 .projects-child	{
-	flex: 1	0 auto;
-	margin: auto;
 	display: flex;
 	flex-flow: column nowrap;
-	align-items: center;
+	align-items: flex-start;
+	max-width: 300px;
+	padding-left: 1.38889%;
+	padding-right: 1.38889%;
 }
 /*  Header and Footer  =====================================
 */
