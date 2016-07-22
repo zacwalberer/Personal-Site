@@ -53,7 +53,8 @@ h4{
 }
 
 a:hover {
-	opacity: 0.5;
+	color:	#4B34EA;
+	border-color: transparent;
 }
 
 header	a,	footer	a{
@@ -61,7 +62,7 @@ header	a,	footer	a{
 }
 
 .main	a,	header	a,	footer	a{
-	transition: opacity	.1s;
+	transition: all	.15s ease-out;
 	text-decoration: none;
 }
 
