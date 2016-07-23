@@ -28,6 +28,7 @@
 
 .intro-about	img	{
 	padding-right: 4em;
+	width: 20em;
 }
 
 .border-top	{
@@ -52,6 +53,10 @@
 
 .recent-title	{
 	margin-bottom: 3em;
+}
+
+.services	{
+	flex-grow: 2;
 }
 
 .project-logo {
