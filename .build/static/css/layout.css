@@ -7,7 +7,7 @@
 	display: flex;
 	justify-content: center;
 	flex-flow: row wrap;
-	margin-bottom: 6em;
+	margin-bottom: 4em;
 }
 
 .intro	{
@@ -75,7 +75,6 @@
 	justify-content: space-between;;
 }
 
-
 .projects-child	{
 	display: flex;
 	flex-flow: column nowrap;
@@ -86,6 +85,20 @@
 .projects-child	a img	{
 	align-items: center;
 }
+
+.projects-list	{
+	display: inline-flex;
+}
+
+.projects-list h3	{
+	flex: 1;
+}
+
+.projects-list p	{
+	flex: 3;
+}
+
+
 
 /*  Header and Footer  =====================================
 */
@@ -102,7 +115,6 @@ header  {
 
 .nav	{
 	display: inline-flex;
-	list-style: none;
 }
 
 nav	li	{
