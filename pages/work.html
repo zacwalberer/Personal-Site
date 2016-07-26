@@ -1,117 +1,71 @@
 {% extends "base.html" %}
 {% block content %}
 <div	class="main">
-<section	class="container">
+
+<section	class="container-row">
 	<div class="intro">
 		<h1>Work</h1>
+		<h4>Featured Projects</h4>
 	</div>
 </section>
 
-<div	class="container-recents">
-	<div class="recent">
+<div class="container-row">
+	<div	class="projects">
+		<div	class="projects-child">
+			<a	href="#"><img class="project-logo" src="static/images/redemption_logomark_black.svg"></a>
+			<h3><a href="/redemption-church">Redemption Church</a></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+
+		<div	class="projects-child">
+			<a	href="#"><img class="project-logo" src="static/images/redemption_logomark_black.svg"></a>
+			<h3><a href="/redemption-church">Redemption Church</a></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		</div>
+
+		<div	class="projects-child">
+			<a	href="#"><img class="project-logo" src="static/images/redemption_logomark_black.svg"></a>
+			<h3><a href="/redemption-church">Redemption Church</a></h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+	</div>
+</div>
+</div>
+
+<div	class="container-row">
+	<div class="recent	border-top">
 		<div	class="recent-list">
-		<h4 class="recent-title">Services</h4>
-		<ul class="recent-list">
-			<li>
-				<h4>
-					Digital Product Design
-				</h4>
+		<h4 class="recent-title">Other Projects</h4>
+		<ul class="recent-list--work">
+			<li	class="projects-list">
+				<h3>
+					<a href="#">Twitter</a>
+				</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</li>
-			<li>
-				<h4>
-					UI/UX Design
-				</h4>
+			<li	class="projects-list">
+				<h3>
+					<a href="#">Twitter</a>
+				</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</li>
-			<li>
-				<h4>
-					Front End Development
-				</h4>
+			<li	class="projects-list">
+				<h3>
+					<a href="#">Twitter</a>
+				</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</li>
-			<li>
-				<h4>
-					Branding and Identity
-				</h4>
+			<li	class="projects-list">
+				<h3>
+					<a href="#">Twitter and Stuff</a>
+				</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
 			</li>
 		</ul>
+		<h4 class="recent-title">Select Clients</h4>
+		<p><a href="http://gluchgroup.com/" target="_blank">Gluch Group</a>, <a href="http://qideas.org/" target="_blank">Q Ideas</a>, <a href="https://www.theamericanoutlaws.com/" target="_blank">American Outlaws</a>, <a href="http://northcountryhealthcare.org/" target="_blank">North County Healthcare</a>, <a href="http://www.actonacademy.org/" target="_blank">Acton Academy</a>.</p>
 	</div>
-	<div	class="recent-list">
-	<h4 class="recent-title">Elsewhere</h4>
-	<ul class="recent-list">
-		<li>
-			<h3>
-				<a href="#">Twitter</a>
-			</h3>
-		</li>
-		<li>
-			<h3>
-				<a href="#">Dribbble</a>
-			</h3>
-		</li>
-		<li>
-			<h3>
-				<a href="#">Github</a>
-			</h3>
-		</li>
-		<li>
-			<h3>
-				<a href="#">Medium</a>
-			</h3>
-		</li>
-	</ul>
-</div>
-	</div>
-</div>
-
-<div	class="container-recents">
-	<div class="recent">
-		<div	class="recent-list">
-		<h4 class="recent-title">Interests</h4>
-		<ul class="recent-list">
-			<li>
-				<h3>
-					<a href="#">NBA</a>
-				</h3>
-			</li>
-			<li>
-				<h3>
-					<a href="#">Apple</a>
-				</h3>
-			</li>
-			<li>
-				<h3>
-					<a href="#">Cycling</a>
-				</h3>
-			</li>
-			<li>
-				<h3>
-					<a href="#">Dog Breeds</a>
-				</h3>
-			</li>
-		</ul>
-	</div>
-	<div	class="recent-list">
-	<h4 class="recent-title">Lists</h4>
-	<ul class="recent-list">
-		<li>
-			<h3>
-				<a href="#">Podcasts</a>
-			</h3>
-		</li>
-		<li>
-			<h3>
-				<a href="#">Reading</a>
-			</h3>
-		</li>
-		<li>
-			<h3>
-				<a href="#">Documentaries</a>
-			</h3>
-		</li>
-	</ul>
-</div>
 	</div>
 </div>
 
 </div>
-
 {% endblock content%}
