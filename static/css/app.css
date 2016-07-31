@@ -467,7 +467,7 @@ ol, ul {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  margin-bottom: 4em; }
+  margin-bottom: 4rem; }
 
 .intro {
   flex: auto;
@@ -539,8 +539,6 @@ ol, ul {
 .projects-list p {
   flex: 3; }
 
-/*  Header and Footer  =====================================
-*/
 header {
   display: flex;
   justify-content: center;
