@@ -1,1 +1,40 @@
 //Typography - Type sizes and font mixins
+
+body {
+	font-family: "source-code-pro",	Arial, serif;
+	font-size: 16px;
+	line-height: 1.735;
+	color: $color-black;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-bottom: 1rem;
+    line-height: 1.735;
+}
+
+p	{
+	font: 16px	"source-code-pro", Arial, serif;
+  color: $color-grey;
+  line-height: 1.735;
+}
+
+h1	{
+	font:  3.157em	"filson-pro", Arial, serif;
+	font-weight:	700;
+}
+
+h3{
+	font:  16px	"source-code-pro", Arial, serif;
+	color: $color-grey;
+}
+
+h3	a{
+	font-weight:	700;
+}
+
+h4{
+	font:16px	"source-code-pro", Arial, serif;
+	color: $color-grey;
+}
