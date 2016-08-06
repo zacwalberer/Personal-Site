@@ -39,7 +39,7 @@
 }
 
 .recent	{
-	padding-top: 2rem;
+	padding-top: 2em;
 	width: 100%;
 	max-width: 1080px;
 	display: flex;
@@ -97,36 +97,6 @@
 	flex: 2;
 }
 
-.blog-list	{
-	display: inline-flex;
-}
-
-.blog-list h3	{
-	flex: auto;
-	align-self: baseline;
-}
-
-article	{
-	max-width:	50%;
-	flex: auto;
-	color: $color-black;
-	margin-bottom: 4rem;
-}
-
-.article-date	{
-	flex: 0 1 auto;
-	align-self: baseline;
-}
-
-.prev-next	{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-wrap: nowrap;
-justify-content: space-between;
-width: 1080px;
-padding-top: 2rem;
-}
 
 //	Header and Footer
 
