@@ -9,25 +9,20 @@
 	</div>
 </section>
 
+
 <div	class="container-row">
+
 	<div class="recent	border-top">
 		<div	class="recent-list">
-		{% for post in posts %}
-		{% ifchanged %}
-		<h4 class="recent-title">{{ post.date|date:"F Y" }}</h4>
-		{% endifchanged %}
-		<ul>
-			<li	class="blog-list">
-				<h3>
-					<a href="/{{ post.path }}">{{ post.title }}</a> - {{ post.date|date:"M j" }}
-				</h3>
-			</li>
-		</ul>
-		{% endfor %}
-	</div>
+			<h4 class="recent-title">Recent Posts</h4>
+			{% for post in posts %}
+			<h3>
+				<a href="/{{ post.path }}">{{ post.title }}</a> - {{ post.date|date:"M j, Y" }}
+			</h3>
+			{% endfor %}
+		</div>
 	</div>
 </div>
-
 </div>
 
 

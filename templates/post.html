@@ -7,7 +7,7 @@
 	<div	class="container-row">
 		<div class="intro">
 			<h1>{{ title }}</h1>
-			<h3>{{ headline }}</h3>
+			<h4>{{ headline }}</h4>
 			<h3>{{ date|date:"M j, Y" }}</h3>
 		</div>
 	</div>
@@ -22,7 +22,7 @@
 		<div class="">
 			{% if prevPost %}
 				<a href="/{{ prevPost.path}}">
-					&larr; {{ prevPost.title }}
+					<h3>&larr; {{ prevPost.title }}</h3>
 				</a>
 			{% endif %}
 		</div>
@@ -31,7 +31,7 @@
 		<div class="">
 			{% if nextPost %}
 				<a href="/{{ nextPost.path}}">
-					{{ nextPost.title }} &rarr;
+					<h3>{{ nextPost.title }} &rarr; </h3>
 				</a>
 			{% endif %}
 		</div>

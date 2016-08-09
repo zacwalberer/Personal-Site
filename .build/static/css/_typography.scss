@@ -1,7 +1,7 @@
 //Typography - Type sizes and font mixins
 
 body {
-	font-family: "source-code-pro",	Arial, serif;
+	font-family: "filson-pro",	Arial, serif;
 	font-size: 16px;
 	line-height: 1.735;
 	color: $color-black;
@@ -15,18 +15,23 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 p	{
-	font: 16px	"source-code-pro", Arial, serif;
-  color: $color-black;
+	font: 16px	"filson-pro", Arial, serif;
+  color: $color-grey;
   line-height: 1.735;
 }
 
+article	p,
+.intro-about	p {
+	color: $color-black;
+}
+
 h1	{
-	font:  3.157em	"filson-pro", Arial, serif;
-	font-weight:	700;
+	font:  3.157rem	"filson-pro", Arial, serif;
+	font-weight:	900;
 }
 
 h3{
-	font:  16px	"source-code-pro", Arial, serif;
+	font:  1rem	"filson-pro", Arial, serif;
 	color: $color-grey;
 }
 
@@ -35,6 +40,6 @@ h3	a{
 }
 
 h4{
-	font:16px	"source-code-pro", Arial, serif;
-	color: $color-grey;
+	font:	1rem	"filson-pro", Arial, serif;
+	color: $color-black;
 }
