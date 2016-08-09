@@ -41,6 +41,11 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/redemption-church.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/work.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
