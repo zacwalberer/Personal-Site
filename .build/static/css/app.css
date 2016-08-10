@@ -511,20 +511,17 @@ body {
 .projects-list p {
   flex: 2; }
 
+.project-row {
+  display: flex;
+  justify-content: space-between; }
+
 .project-frame {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
   justify-content: space-around;
-  width: 30%;
-  background: #fff;
-  border: 1px solid #E0E0E0;
   overflow: hidden;
-  margin-bottom: 4rem; }
-
-.project-row {
-  display: flex;
-  justify-content: space-between; }
+  width: 30%; }
 
 .project-frame img {
   max-width: 100%; }
