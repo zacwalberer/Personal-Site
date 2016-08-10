@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} | Cactus{% endblock title %}
+{% block content %}
+
+<div	class="main">
+
+	<div	class="container-row">
+		<div class="intro">
+			<h1>{{ title }}</h1>
+			<h4>{{ headline }}</h4>
+			<h3>{{ date|date:"M j, Y" }}</h3>
+		</div>
+	</div>
+
+	<div	class="container-row">
+		<article>
+			{% block body %}
+			{% endblock body %}
+		</article>
+
+	<div	class="prev-next	border-top">
+		<div class="">
+			{% if prevPost %}
+				<a href="/{{ prevPost.path}}">
+					<h3>&larr; {{ prevPost.title }}</h3>
+				</a>
+			{% endif %}
+		</div>
+
+
+		<div class="">
+			{% if nextPost %}
+				<a href="/{{ nextPost.path}}">
+					<h3>{{ nextPost.title }} &rarr; </h3>
+				</a>
+			{% endif %}
+		</div>
+	</div>
+
+</div>
+</div>
+
+{% endblock content %}
