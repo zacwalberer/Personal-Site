@@ -1,5 +1,9 @@
 //Layouts - Flexbox and containers.
 
+body	{
+	background: #fef7f1;
+}
+
 .main{
 	display: flex;
 	flex-direction: column;
@@ -56,11 +60,21 @@
 }
 
 .recent	ul	{
-	margin-bottom: 3em;
+	margin-bottom: 4em;
 }
 
 .recent-title	{
-	margin-bottom: 3em;
+	margin-bottom: 2em;
+}
+
+.inline-flex	{
+	display: inline-flex;
+	margin-bottom: 4em;
+}
+
+.inline-flex li{
+	padding-right: 2rem;
+	flex: auto;
 }
 
 .services	{
@@ -79,6 +93,29 @@
 .projects-list p	{
 	flex: 2;
 }
+
+.project-frame	{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	width: 30%;
+	background: #fff;
+  border: 1px solid $color-border;
+  overflow: hidden;
+  //border-radius: 5px;
+	margin-bottom: 4rem;
+}
+
+.project-row	{
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-frame	img{
+	max-width: 100%
+}
+
 
 .blog-list	{
 	display: inline-flex;

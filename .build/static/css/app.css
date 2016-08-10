@@ -433,6 +433,12 @@ h4 {
   font: 1rem	"filson-pro", Arial, serif;
   color: #222; }
 
+.inline-flex {
+  color: #A6A6A6; }
+
+body {
+  background: #fef7f1; }
+
 .main {
   display: flex;
   flex-direction: column;
@@ -479,10 +485,18 @@ h4 {
   padding-top: 2rem; }
 
 .recent ul {
-  margin-bottom: 3em; }
+  margin-bottom: 4em; }
 
 .recent-title {
-  margin-bottom: 3em; }
+  margin-bottom: 2em; }
+
+.inline-flex {
+  display: inline-flex;
+  margin-bottom: 4em; }
+
+.inline-flex li {
+  padding-right: 2rem;
+  flex: auto; }
 
 .services {
   flex-grow: 1.5; }
@@ -496,6 +510,24 @@ h4 {
 
 .projects-list p {
   flex: 2; }
+
+.project-frame {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 30%;
+  background: #fff;
+  border: 1px solid #E0E0E0;
+  overflow: hidden;
+  margin-bottom: 4rem; }
+
+.project-row {
+  display: flex;
+  justify-content: space-between; }
+
+.project-frame img {
+  max-width: 100%; }
 
 .blog-list {
   display: inline-flex; }
