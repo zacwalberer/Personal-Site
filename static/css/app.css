@@ -436,9 +436,6 @@ h4 {
 .inline-flex {
   color: #A6A6A6; }
 
-body {
-  background: #fef7f1; }
-
 .main {
   display: flex;
   flex-direction: column;
