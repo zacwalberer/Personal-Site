@@ -104,7 +104,23 @@
 	width: 30%;
 }
 
+.project-frame_logo	{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  overflow: hidden;
+	width: 20%;
+}
 
+.project-frame_ao	{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  overflow: hidden;
+	width: 25%;
+}
 
 .project-frame	img{
 	max-width: 100%
@@ -181,6 +197,10 @@ nav	{
 	width: 1200px;
 }
 
+nav	span	{
+	margin: auto;
+}
+
 footer  {
 	display: flex;
 	justify-content: center;
@@ -189,3 +209,5 @@ footer  {
   padding-left: 4.16667%;
   padding-right: 4.16667%;
 }
+
+//Layouts - Breakpoints.

@@ -1,0 +1,193 @@
+//Layouts - Flexbox and containers.
+
+.main{
+	display: flex;
+	flex-direction: column;
+	padding-left: 4.16667%;
+  padding-right: 4.16667%;
+}
+
+.container-row	{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin-bottom: 4rem;
+}
+
+.intro	{
+	flex: auto;
+	max-width: 1080px;
+}
+
+.intro-about	{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+
+.intro-about	p	{
+	flex: 1;
+}
+
+.intro-about	img	{
+	padding-right: 4em;
+	width: 20em;
+}
+
+.border-top	{
+	border-top: 1px  solid  $color-border;
+}
+
+.recent	{
+	padding-top: 2rem;
+	width: 100%;
+	max-width: 1080px;
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.recent-list	{
+	flex: 1;
+}
+
+.recent-list_blog	{
+	flex: 1;
+	padding-top: 2rem;
+}
+
+.recent	ul	{
+	margin-bottom: 4em;
+}
+
+.recent-title	{
+	margin-bottom: 2em;
+}
+
+.inline-flex	{
+	display: inline-flex;
+	margin-bottom: 4em;
+}
+
+.inline-flex li{
+	padding-right: 2rem;
+	flex: auto;
+}
+
+.services	{
+	flex-grow: 1.5;
+}
+
+.projects-list	{
+	display: inline-flex;
+}
+
+.projects-list h3	{
+	flex: 1;
+	min-width: 12rem;
+}
+
+.projects-list p	{
+	flex: 2;
+}
+
+.project-row	{
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-frame	{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  overflow: hidden;
+	width: 30%;
+}
+
+.project-frame	img{
+	max-width: 100%
+}
+
+
+.blog-list	{
+	display: inline-flex;
+}
+
+.blog-list h3	{
+	flex: auto;
+	align-self: baseline;
+}
+
+article	{
+	max-width:	50%;
+	flex: auto;
+	color: $color-black;
+	margin-bottom: 4rem;
+}
+
+.article-date	{
+	flex: 0 1 auto;
+	align-self: baseline;
+}
+
+.prev-next	{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: nowrap;
+justify-content: space-between;
+width: 1080px;
+padding-top: 2rem;
+}
+
+.container-row	img{
+	margin-bottom: 4rem;
+	max-width: 100%;
+	align-self: center;
+}
+
+.container-row	p{
+	margin-bottom: 4rem;
+}
+
+//	Header and Footer
+
+header  {
+	display: flex;
+	justify-content: center;
+  height: 75px;
+  border-bottom:  1px  solid  $color-border;
+	margin-bottom: 4rem;
+  padding-left: 4.16667%;
+  padding-right: 4.16667%;
+}
+
+.nav	{
+	display: inline-flex;
+}
+
+nav	li	{
+	padding-left: 50px;
+}
+
+nav	{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	width: 1200px;
+}
+
+nav	span	{
+	margin: auto;
+}
+
+footer  {
+	display: flex;
+	justify-content: center;
+  height: 75px;
+  border-top:  1px  solid  $color-border;
+  padding-left: 4.16667%;
+  padding-right: 4.16667%;
+}

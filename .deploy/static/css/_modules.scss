@@ -1,0 +1,35 @@
+//Modules
+
+//Links
+
+a	{
+	transition: all	.15s ease-out;
+	text-decoration: none;
+}
+
+.main	a{
+	color: inherit;
+	border-bottom: 1px solid $color-border;
+}
+
+a:hover {
+	color:	$color-blue;
+	border-color: transparent;
+}
+
+footer	{
+	color:	$color-grey;
+}
+
+header	a,	footer	a{
+	color:	$color-blue;
+}
+
+header	a:hover, footer	a:hover{
+	color:	$color-grey;
+	border-color: transparent;
+}
+
+ol, ul {
+    list-style: none;
+}

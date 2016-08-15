@@ -520,6 +520,22 @@ h4 {
   overflow: hidden;
   width: 30%; }
 
+.project-frame_logo {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 20%; }
+
+.project-frame_ao {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 25%; }
+
 .project-frame img {
   max-width: 100%; }
 
@@ -579,6 +595,9 @@ nav {
   flex-wrap: nowrap;
   justify-content: space-between;
   width: 1200px; }
+
+nav span {
+  margin: auto; }
 
 footer {
   display: flex;
