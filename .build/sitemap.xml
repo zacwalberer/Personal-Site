@@ -46,6 +46,21 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/projects/american-outlaws.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/projects/bubbas-bash.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/projects/logos.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/projects/redemption-church.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>

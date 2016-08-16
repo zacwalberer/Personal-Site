@@ -410,7 +410,7 @@ h1, h2, h3, h4, h5, h6, p {
   line-height: 1.735; }
 
 p {
-  font: 16px	"filson-pro", Arial, serif;
+  font: 1rem	"filson-pro", Arial, serif;
   color: #A6A6A6;
   line-height: 1.735; }
 
@@ -439,8 +439,8 @@ h4 {
 .main {
   display: flex;
   flex-direction: column;
-  padding-left: 4.16667%;
-  padding-right: 4.16667%; }
+  padding-left: 5%;
+  padding-right: 5%; }
 
 .container-row {
   display: flex;
@@ -467,6 +467,9 @@ h4 {
 .border-top {
   border-top: 1px solid #E0E0E0; }
 
+.border-bottom {
+  border-bottom: 1px solid #E0E0E0; }
+
 .recent {
   padding-top: 2rem;
   width: 100%;
@@ -477,12 +480,15 @@ h4 {
 .recent-list {
   flex: 1; }
 
+.recent-list_1 {
+  flex: 1; }
+
 .recent-list_blog {
   flex: 1;
   padding-top: 2rem; }
 
 .recent ul {
-  margin-bottom: 4em; }
+  margin-bottom: 2em; }
 
 .recent-title {
   margin-bottom: 2em; }
@@ -512,6 +518,18 @@ h4 {
   display: flex;
   justify-content: space-between; }
 
+.project-row_around {
+  display: flex;
+  justify-content: space-around; }
+
+.project-frame_display {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 50%; }
+
 .project-frame {
   display: flex;
   justify-content: center;
@@ -536,8 +554,35 @@ h4 {
   overflow: hidden;
   width: 25%; }
 
+.project-frame_surge {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 10%; }
+
 .project-frame img {
   max-width: 100%; }
+
+.project-frame_border {
+  background: #fff;
+  border: 1px solid #e6e6e6;
+  overflow: hidden;
+  background-clip: padding-box;
+  border-radius: 10px; }
+
+.surge-center {
+  display: flex;
+  justify-content: center; }
+
+.surge-center {
+  display: flex;
+  justify-content: center;
+  max-width: 1080px; }
+
+.smaller-size {
+  width: 30%; }
 
 .blog-list {
   display: inline-flex; }
@@ -579,8 +624,8 @@ header {
   height: 75px;
   border-bottom: 1px solid #E0E0E0;
   margin-bottom: 4rem;
-  padding-left: 4.16667%;
-  padding-right: 4.16667%; }
+  padding-left: 5%;
+  padding-right: 5%; }
 
 .nav {
   display: inline-flex; }
@@ -604,9 +649,35 @@ footer {
   justify-content: center;
   height: 75px;
   border-top: 1px solid #E0E0E0;
-  padding-left: 4.16667%;
-  padding-right: 4.16667%; }
+  padding-left: 5%;
+  padding-right: 5%; }
 
+@media screen and (max-width: 540px) {
+  #post-list .dates {
+    display: none; }
+
+  .recent-list {
+    flex: auto;
+    min-width: 30rem;
+    margin-bottom: 0rem; }
+
+  .recent-list_1 {
+    flex: auto;
+    margin-bottom: 3rem; }
+
+  .services {
+    flex: auto;
+    min-width: 30rem;
+    margin-bottom: 0rem; }
+
+  article {
+    max-width: 100%;
+    flex: auto;
+    color: #222;
+    margin-bottom: 4rem; }
+
+  h1 {
+    font-size: 2rem; } }
 a {
   transition: all	.15s ease-out;
   text-decoration: none; }
