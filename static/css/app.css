@@ -397,6 +397,9 @@ table {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+::selection {
+  background: rgba(234, 209, 52, 0.25); }
+
 body {
   font-family: "filson-pro",	Arial, serif;
   font-size: 16px;
@@ -450,6 +453,47 @@ h4 {
   justify-content: center;
   flex-flow: row wrap;
   margin-bottom: 4rem; }
+
+.project-container {
+  display: flex;
+  flex-flow: row wrap;
+  max-width: 1080px; }
+
+.project {
+  position: relative;
+  width: calc(50% - 0.7rem);
+  max-width: none;
+  margin-bottom: 1rem; }
+
+.proj-1 {
+  margin-right: 0.7rem;
+  margin-left: 0; }
+
+.proj-2 {
+  margin-right: 0;
+  margin-left: 0.7rem; }
+
+.project a img {
+  width: 100%;
+  overflow: hidden;
+  transition: -webkit-filter 0.13s ease-in; }
+
+.project a {
+  line-height: 0.8;
+  display: block;
+  position: relative;
+  max-width: 28em;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: none; }
+
+.project figcaption {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 5;
+  color: white;
+  display: block; }
 
 .intro {
   flex: auto;
@@ -626,12 +670,12 @@ article {
   max-width: 100%;
   align-self: center; }
 
+.project img {
+  margin-bottom: 0rem; }
+
 .projects-list_row {
   margin-bottom: 2rem; }
 
-/*.container-row	p{
-	margin-bottom: 2rem;
-}*/
 header {
   display: flex;
   justify-content: center;
@@ -744,12 +788,23 @@ footer {
     padding-right: 0; }
 
   .intro-about p {
-    flex: auto; } }
+    flex: auto; }
+
+  .project {
+    width: 100%; }
+
+  .proj-1 {
+    margin-right: 0;
+    margin-left: 0; }
+
+  .proj-2 {
+    margin-right: 0;
+    margin-left: 0; } }
 a {
   transition: all	.15s ease-out;
   text-decoration: none; }
 
-.main a {
+h1 a, h2 a, h3 a, h4 a, p a, li a {
   color: inherit;
   border-bottom: 1px solid #E0E0E0; }
 
@@ -758,10 +813,12 @@ a:hover {
   border-color: transparent; }
 
 footer {
-  color: #A6A6A6; }
+  color: #A6A6A6;
+  border-color: transparent; }
 
 header a {
-  color: #4B34EA; }
+  color: #4B34EA;
+  border-color: transparent; }
 
 footer a {
   color: #A6A6A6; }

@@ -7,7 +7,7 @@ a	{
 	text-decoration: none;
 }
 
-.main	a{
+h1 a, h2 a, h3 a, h4 a, p a,  li a{
 	color: inherit;
 	border-bottom: 1px solid $color-border;
 }
@@ -19,10 +19,14 @@ a:hover {
 
 footer	{
 	color:	$color-grey;
+	border-color: transparent;
+
 }
 
 header	a{
 	color:	$color-blue;
+	border-color: transparent;
+
 }
 
 footer	a	{
