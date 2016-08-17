@@ -28,11 +28,15 @@ article	p,
 h1	{
 	font:  3.157rem	"filson-pro", Arial, serif;
 	font-weight:	900;
+	line-height: 1.735;
+
 }
 
 h3{
 	font:  1rem	"filson-pro", Arial, serif;
 	color: $color-grey;
+	line-height: 1.735;
+
 }
 
 h3	a{
@@ -42,6 +46,8 @@ h3	a{
 h4{
 	font:	1rem	"filson-pro", Arial, serif;
 	color: $color-black;
+	line-height: 1.735;
+
 }
 
 .inline-flex{
