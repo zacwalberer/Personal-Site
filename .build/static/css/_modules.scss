@@ -21,12 +21,21 @@ footer	{
 	color:	$color-grey;
 }
 
-header	a,	footer	a{
+header	a{
 	color:	$color-blue;
 }
 
-header	a:hover, footer	a:hover{
+footer	a	{
 	color:	$color-grey;
+}
+
+header	a:hover{
+	color:	$color-grey;
+	border-color: transparent;
+}
+
+footer	a:hover{
+	color:	$color-blue;
 	border-color: transparent;
 }
 

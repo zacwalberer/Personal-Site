@@ -73,12 +73,12 @@
 
 .inline-flex	{
 	display: inline-flex;
-	margin-bottom: 4em;
 }
 
 .inline-flex li{
 	padding-right: 2rem;
 	flex: auto;
+	margin-bottom: 1rem;
 }
 
 .services	{
@@ -116,6 +116,15 @@
 	justify-content: space-around;
   overflow: hidden;
 	width: 50%;
+}
+
+.project-frame_red	{
+	display: flex;
+	justify-content: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
+  overflow: hidden;
+	width: 48%;
 }
 
 .project-frame	{
@@ -218,9 +227,13 @@ padding-top: 2rem;
 	align-self: center;
 }
 
-.container-row	p{
-	margin-bottom: 4rem;
+.projects-list_row	{
+	margin-bottom: 2rem;
 }
+
+/*.container-row	p{
+	margin-bottom: 2rem;
+}*/
 
 //	Header and Footer
 
@@ -280,4 +293,8 @@ footer  {
 		margin-bottom: 4rem;
 	}
 	h1, { font-size: 2rem; }
+
+	.inline-flex	{
+		display: list-item;
+	}
 }

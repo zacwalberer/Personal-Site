@@ -51,7 +51,22 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/projects/aoc.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/projects/bubbas-bash.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/projects/bw-services.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/projects/flagstaff-marathon.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>
@@ -61,7 +76,27 @@
         <priority>1.0</priority>
     </url>
     <url>
+        <loc>/projects/phoenix-suns.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/projects/praxis-ministries.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
         <loc>/projects/redemption-church.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/projects/surge-network.html</loc>
+        <changefreq>daily</changefreq>
+        <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>/projects/synergy.html</loc>
         <changefreq>daily</changefreq>
         <priority>1.0</priority>
     </url>

@@ -494,12 +494,12 @@ h4 {
   margin-bottom: 2em; }
 
 .inline-flex {
-  display: inline-flex;
-  margin-bottom: 4em; }
+  display: inline-flex; }
 
 .inline-flex li {
   padding-right: 2rem;
-  flex: auto; }
+  flex: auto;
+  margin-bottom: 1rem; }
 
 .services {
   flex-grow: 1.5; }
@@ -529,6 +529,14 @@ h4 {
   justify-content: space-around;
   overflow: hidden;
   width: 50%; }
+
+.project-frame_red {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  overflow: hidden;
+  width: 48%; }
 
 .project-frame {
   display: flex;
@@ -615,9 +623,12 @@ article {
   max-width: 100%;
   align-self: center; }
 
-.container-row p {
-  margin-bottom: 4rem; }
+.projects-list_row {
+  margin-bottom: 2rem; }
 
+/*.container-row	p{
+	margin-bottom: 2rem;
+}*/
 header {
   display: flex;
   justify-content: center;
@@ -677,7 +688,10 @@ footer {
     margin-bottom: 4rem; }
 
   h1 {
-    font-size: 2rem; } }
+    font-size: 2rem; }
+
+  .inline-flex {
+    display: list-item; } }
 a {
   transition: all	.15s ease-out;
   text-decoration: none; }
@@ -693,11 +707,18 @@ a:hover {
 footer {
   color: #A6A6A6; }
 
-header a, footer a {
+header a {
   color: #4B34EA; }
 
-header a:hover, footer a:hover {
+footer a {
+  color: #A6A6A6; }
+
+header a:hover {
   color: #A6A6A6;
+  border-color: transparent; }
+
+footer a:hover {
+  color: #4B34EA;
   border-color: transparent; }
 
 ol, ul {
