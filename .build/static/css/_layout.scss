@@ -279,7 +279,7 @@ footer  {
 
 //Layouts - Breakpoints.
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 667px) {
 
 	#post-list .dates { display: none; }
 
@@ -343,6 +343,20 @@ footer  {
     justify-content: space-around;
     overflow: hidden;
     width: 100%;
+}
+
+.intro-about {
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.intro-about img {
+    width: 100%;
+		padding-right: 0;
+}
+
+.intro-about p {
+    flex: auto;
 }
 
 }
