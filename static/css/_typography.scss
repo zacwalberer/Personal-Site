@@ -3,7 +3,6 @@
 body {
 	font-family: "filson-pro",	Arial, serif;
 	font-size: 16px;
-	line-height: 1.735;
 	color: $color-black;
 	-webkit-font-smoothing: antialiased;
 	text-rendering: optimizeLegibility;
@@ -11,7 +10,6 @@ body {
 
 h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 1rem;
-    line-height: 1.735;
 }
 
 p	{
@@ -28,8 +26,7 @@ article	p,
 h1	{
 	font:  3.157rem	"filson-pro", Arial, serif;
 	font-weight:	900;
-	line-height: 1.735;
-
+	line-height: 1.5;
 }
 
 h3{
