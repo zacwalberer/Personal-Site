@@ -2,6 +2,18 @@
 
 //Links
 
+.project	img {
+    opacity: 1;
+    filter: alpha(opacity=40);
+}
+
+.project	img:hover {
+		opacity: 0.8;
+    filter: alpha(opacity=100);
+    transition: all .15s ease-in;
+		transition: all .15s ease-out;
+	}
+
 a	{
 	transition: all	.15s ease-out;
 	text-decoration: none;
@@ -19,8 +31,6 @@ a:hover {
 
 footer	{
 	color:	$color-grey;
-	border-color: transparent;
-
 }
 
 header	a{
