@@ -2,12 +2,24 @@
 
 //Links
 
+.project	img {
+    opacity: 1;
+    filter: alpha(opacity=40);
+}
+
+.project	img:hover {
+		opacity: 0.8;
+    filter: alpha(opacity=100);
+    transition: all .15s ease-in;
+		transition: all .15s ease-out;
+	}
+
 a	{
 	transition: all	.15s ease-out;
 	text-decoration: none;
 }
 
-.main	a{
+h1 a, h2 a, h3 a, h4 a, p a,  li a{
 	color: inherit;
 	border-bottom: 1px solid $color-border;
 }
@@ -23,6 +35,8 @@ footer	{
 
 header	a{
 	color:	$color-blue;
+	border-color: transparent;
+
 }
 
 footer	a	{
