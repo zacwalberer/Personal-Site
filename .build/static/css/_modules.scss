@@ -1,6 +1,6 @@
-//Modules
+/*Modules*/
 
-//Links
+/*Links*/
 
 .project	img {
     opacity: 1;
@@ -10,11 +10,14 @@
 .project	img:hover {
 		opacity: 0.8;
     filter: alpha(opacity=100);
+    -webkit-transition: all .15s ease-in;
     transition: all .15s ease-in;
+		-webkit-transition: all .15s ease-out;
 		transition: all .15s ease-out;
 	}
 
 a	{
+	-webkit-transition: all	.15s ease-out;
 	transition: all	.15s ease-out;
 	text-decoration: none;
 }
