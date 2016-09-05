@@ -780,7 +780,9 @@ article {
   align-self: center; }
 
 .project img {
-  margin-bottom: 0rem; }
+  vertical-align: middle;
+  margin-bottom: 0rem;
+  display: block; }
 
 .projects-list_row {
   margin-bottom: 2rem; }

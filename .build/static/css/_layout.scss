@@ -194,11 +194,8 @@
 }
 
 .project-row_around	{
-
 	display: -webkit-box;
-
 	display: -ms-flexbox;
-
 	display: flex;
 	-ms-flex-pack: distribute;
 	    justify-content: space-around;
@@ -295,7 +292,7 @@
 }
 
 .project-frame	img{
-	max-width: 100%
+	max-width: 100%;
 }
 
 .project-frame_border	{
@@ -387,7 +384,9 @@ padding-top: 2rem;
 }
 
 .project	img{
+	vertical-align: middle;
 	margin-bottom: 0rem;
+	display: block;
 }
 
 .projects-list_row	{
