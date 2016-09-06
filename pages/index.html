@@ -9,41 +9,41 @@
 		</h4>
 	</div>
 </section>
+
 <div	class="container-row">
 	<div class="recent	border-top">
 		<div	class="recent-list_1">
-		<h4 class="recent-title">Writing</h4>
-		<ul>
-			{% for post in posts %}
-			<h3>
-				<a href="/{{ post.path }}">{{ post.title }}</a> - {{ post.date|date:"M j, Y" }}
-			</h3>
-			{% endfor %}
-		</ul>
+			<h4 class="recent-title">Writing</h4>
+			<ul>
+				{% for post in posts %}
+				<h3>
+					<a href="/{{ post.path }}">{{ post.title }}</a> - {{ post.date|date:"M j, Y" }}
+				</h3>
+				{% endfor %}
+			</ul>
 		<h3><a href="/blog.html">Archive</a></h3>
-	</div>
+		</div>
 	<div	class="recent-list">
-	<h4 class="recent-title">Select Work</h4>
-	<ul>
-		<li>
-			<h3>
-				<a href="/projects/redemption-church.html">Redemption Church	– UX, IA, Conent</a>
-			</h3>
-		</li>
-		<li>
-			<h3>
-				<a href="/projects/synergy.html">Synergy PT – UX, UI, Branding</a>
-			</h3>
-		</li>
-		<li>
-			<h3>
-				<a href="/projects/surge-network.html">Surge Network	– UX, UI, Branding</a>
-			</h3>
-		</li>
-
-	</ul>
-	<h3><a href="/work.html">Work</a></h3>
-</div>
+		<h4 class="recent-title">Select Work</h4>
+		<ul>
+			<li>
+				<h3>
+					<a href="/projects/redemption-church.html">Redemption Church	– UX, IA, Conent</a>
+				</h3>
+			</li>
+			<li>
+				<h3>
+					<a href="/projects/synergy.html">Synergy PT – UX, UI, Branding</a>
+				</h3>
+			</li>
+			<li>
+				<h3>
+					<a href="/projects/surge-network.html">Surge Network	– UX, UI, Branding</a>
+				</h3>
+			</li>
+		</ul>
+		<h3><a href="/work.html">Work</a></h3>
+	</div>
 	</div>
 </div>
 

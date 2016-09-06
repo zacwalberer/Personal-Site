@@ -1,3 +1,3 @@
 # My Personal Site
 
-This is a site built from [Cactus](https://github.com/koenbok/Cactus). 
+This is my personal website built on [Cactus](https://github.com/koenbok/Cactus).

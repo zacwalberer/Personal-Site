@@ -3,27 +3,25 @@
 
 <div	class="main">
 
-<section	class="container-row">
-	<div class="intro">
-		<h1>Thoughts on Life and Design.</h1>
-	</div>
-</section>
+	<section	class="container-row">
+		<div class="intro">
+			<h1>Thoughts on Life and Design.</h1>
+		</div>
+	</section>
 
 
-<div	class="container-row">
-
-	<div class="recent	border-top">
-		<div	class="recent-list">
-			<h4 class="recent-title">Recent Posts</h4>
-			{% for post in posts %}
-			<h3>
-				<a href="/{{ post.path }}">{{ post.title }}</a> - {{ post.date|date:"M j, Y" }}
-			</h3>
-			{% endfor %}
+	<div	class="container-row">
+		<div class="recent	border-top">
+			<div	class="recent-list">
+				<h4 class="recent-title">Recent Posts</h4>
+				{% for post in posts %}
+				<h3>
+					<a href="/{{ post.path }}">{{ post.title }}</a> - {{ post.date|date:"M j, Y" }}
+				</h3>
+				{% endfor %}
+			</div>
 		</div>
 	</div>
 </div>
-</div>
-
 
 {% endblock content%}

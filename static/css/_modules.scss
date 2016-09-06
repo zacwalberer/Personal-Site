@@ -1,5 +1,9 @@
 /*Modules*/
 
+::-moz-selection {background: rgba(234,209,52,0.25);}
+
+::selection {background: rgba(234,209,52,0.25);}
+
 /*Links*/
 
 .project	img {
@@ -22,7 +26,7 @@ a	{
 	text-decoration: none;
 }
 
-h1 a, h2 a, h3 a, h4 a, p a,  li a{
+h1 a, h2 a, h3 a, h4 a, p a,  li a  {
 	color: inherit;
 	border-bottom: 1px solid $color-border;
 }
@@ -36,26 +40,29 @@ footer	{
 	color:	$color-grey;
 }
 
-header	a{
+header	a  {
 	color:	$color-blue;
 	border-color: transparent;
-
 }
 
 footer	a	{
 	color:	$color-grey;
 }
 
-header	a:hover{
+header	a:hover  {
 	color:	$color-grey;
 	border-color: transparent;
 }
 
-footer	a:hover{
+footer	a:hover  {
 	color:	$color-blue;
 	border-color: transparent;
 }
 
 ol, ul {
     list-style: none;
+}
+
+li  {
+  line-height: 2rem;
 }

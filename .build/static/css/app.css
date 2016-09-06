@@ -368,6 +368,7 @@ textarea {
   font: inherit;
   /* 2 */ }
 
+/*Reset -  CSS Reset*/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
   border: 0;
   font-size: 100%;
@@ -393,13 +394,10 @@ table {
   border-spacing: 0; }
 
 *, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-::selection {
-  background: rgba(234, 209, 52, 0.25); }
-
+/*Globals -  Global Variables*/
+/*Colors*/
 /*Typography - Type sizes and font mixins*/
 body {
   font-family: "filson-pro",	Arial, serif;
@@ -975,6 +973,12 @@ footer {
     margin-right: 0;
     margin-left: 0; } }
 /*Modules*/
+::-moz-selection {
+  background: rgba(234, 209, 52, 0.25); }
+
+::selection {
+  background: rgba(234, 209, 52, 0.25); }
+
 /*Links*/
 .project img {
   opacity: 1;
@@ -1021,5 +1025,8 @@ footer a:hover {
 
 ol, ul {
   list-style: none; }
+
+li {
+  line-height: 2rem; }
 
 /*# sourceMappingURL=app.css.map */
